@@ -101,8 +101,9 @@ const Index = () => {
                 </p>
                 <p className="text-muted-foreground leading-relaxed text-lg">
                   With a Ph.D. in Religious Studies from the University of
-                  Virginia, Dr. Lye brings both deep scholarly understanding and
-                  authentic practice experience to his teaching, making the
+                  Virginia, Dr. Lye bridges East and West with a deep scholarly understanding and
+                  sincere practice experience rooted in an authentic living transmission. 
+                  He brings these perspectives to his teaching, making the
                   profound wisdom of the Tibetan Buddhist tradition accessible
                   to contemporary practitioners.
                 </p>
