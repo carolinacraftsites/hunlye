@@ -195,7 +195,7 @@ const Index = () => {
                 "What we call <em>meditation</em> is nothing but habituating our fundamental buddhamind."
                 <br/>
                 <br/>
-                "All that arises from the three poisons is <em>contrived</em>, all that is free from the poisons is natural."
+                "All that arises from the three poisons is <em>contrived</em>, all that is free from the poisons is <em>natural</em>."
                 </p>
               </div>
 
