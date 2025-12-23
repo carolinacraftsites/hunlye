@@ -99,7 +99,7 @@ const Index = () => {
                   teacher in the Drikung Kagyu Lineage of Tibetan Buddhism,
                   renowned for its emphasis on meditation practice.
                 </p>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed text-lg">
                   With a Ph.D. in Religious Studies from the University of
                   Virginia, Dr. Lye brings both deep scholarly understanding and
                   authentic practice experience to his teaching, making the
