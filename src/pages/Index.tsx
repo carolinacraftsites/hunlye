@@ -162,7 +162,7 @@ const Index = () => {
               Drikung Kagyu Tradition
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mx-auto mb-12">
-              The Drikung Kagyu lineage traces its origins to the Buddha through
+              The Drikung Kagyu Lineage traces its origins to the Buddha through
               an unbroken chain of realized masters. Founded in 1179 by Kyobpa
               Jikten Sumgön, it is known for the profound practices of
               Mahamudra (the Great Seal), and the Six Yogas of Naropa.
@@ -174,11 +174,11 @@ const Index = () => {
                   <span className="text-gold text-xl">ༀ</span>
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
-                  Meditation
+                  View
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                  Emphasis on direct meditation practice and the cultivation of
-                  inner wisdom through Mahamudra.
+                  "All appearances of confusion and liberation are nothing but one's own mind."
+                  "Everything arises from emptiness through the dependant arising of cause and effect."
                 </p>
               </div>
 
@@ -187,11 +187,11 @@ const Index = () => {
                   <span className="text-gold text-xl">☸</span>
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
-                  Compassion
+                Meditation
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                  Developing bodhicitta—the awakened heart dedicated to the
-                  liberation of all beings.
+                "What we call 'meditation' is nothing but habituating our fundamental buddhamind."
+                "All that arises from the three poisons is 'contrived', all that is free from the poisons is natural"
                 </p>
               </div>
 
@@ -200,11 +200,11 @@ const Index = () => {
                   <span className="text-gold text-xl">✦</span>
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
-                  Wisdom
+                Conduct
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                  Transmission of authentic Buddhist teachings through an
-                  unbroken lineage of masters.
+                "To restrain oneself from harmful actions, to engage in virtue, and to do that for the sake of all is the conduct of bodhisattvas"
+
                 </p>
               </div>
             </div>
