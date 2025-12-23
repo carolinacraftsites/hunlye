@@ -219,10 +219,10 @@ const Index = () => {
               Connect
             </p>
             <h2 className="font-heading text-4xl md:text-5xl font-semibold text-cream mb-6">
-              Join the Sangha
+              Join Dr. Lye
             </h2>
             <p className="text-cream/80 text-lg leading-relaxed mb-12">
-              Explore teachings, events, and community through Urban Dharma NC
+              Connect to teachings, events, and community through Urban Dharma NC
               and Drikung Dharmakirti. All are welcome on the path.
             </p>
 
@@ -258,7 +258,7 @@ const Index = () => {
                     Drikung Dharmakirti
                   </h3>
                   <p className="text-cream/70 text-sm mb-4">
-                    Practice community
+                    International practice community
                   </p>
                   <span className="inline-flex items-center text-gold text-sm font-medium">
                     Visit Site
