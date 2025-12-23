@@ -238,7 +238,7 @@ const Index = () => {
                     Urban Dharma NC
                   </h3>
                   <p className="text-cream/70 text-sm mb-4">
-                    Local sangha community in North Carolina
+                    Dr. Lye's home sangha in North Carolina
                   </p>
                   <span className="inline-flex items-center text-gold text-sm font-medium">
                     Visit Site
