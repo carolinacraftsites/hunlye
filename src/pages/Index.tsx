@@ -178,6 +178,8 @@ const Index = () => {
                 </h3>
                 <p className="text-muted-foreground text-sm">
                   "All appearances of confusion and liberation are nothing but one's own mind."
+                <br/>
+                <br/>
                   "Everything arises from emptiness through the dependant arising of cause and effect."
                 </p>
               </div>
@@ -191,7 +193,9 @@ const Index = () => {
                 </h3>
                 <p className="text-muted-foreground text-sm">
                 "What we call 'meditation' is nothing but habituating our fundamental buddhamind."
-                "All that arises from the three poisons is 'contrived', all that is free from the poisons is natural"
+                <br/>
+                <br/>
+                "All that arises from the three poisons is 'contrived', all that is free from the poisons is natural."
                 </p>
               </div>
 
@@ -203,8 +207,10 @@ const Index = () => {
                 Conduct
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                "To restrain oneself from harmful actions, to engage in virtue, and to do that for the sake of all is the conduct of bodhisattvas"
-
+                "Happiness and suffering arises from choices made."
+                <br/>
+                <br/>
+                "To restrain oneself from harmful actions, to engage in virtue, and to do that for the sake of all is the conduct of bodhisattvas."
                 </p>
               </div>
             </div>
