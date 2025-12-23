@@ -39,7 +39,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Dorlop Rinpoche, Dr. Hun Lye teaching in a traditional Buddhist setting with thangka and altar"
+            alt="Dorlöp Rinpoché, Dr. Hun Lye teaching in a traditional Buddhist setting with thangka and altar"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-maroon-dark/90 via-maroon/70 to-maroon-dark/50" />
@@ -50,7 +50,7 @@ const Index = () => {
               Drikung Kagyu Lineage
             </p>
             <h1 className="font-heading text-5xl md:text-7xl font-semibold text-cream mb-6 leading-tight delay-200 animate-fade-up">
-              Dorlop Rinpoche
+              Dorlöp Rinpoché
               <span className="block text-gold-light">Dr. Hun Lye</span>
             </h1>
             <p className="text-cream/90 text-lg md:text-xl leading-relaxed mb-8 max-w-xl delay-300 animate-fade-up">
@@ -94,8 +94,8 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  Dr. Hun Lye, known as Dorlop Rinpoche, is an authorized
-                  teacher in the Drikung Kagyu lineage—one of the four major
+                  Dr. Hun Lye, known as Dorlöp Rinpoché, is an authorized
+                  teacher in the Drikung Kagyu lineage—a sub-sect of one of the four major
                   schools of Tibetan Buddhism, renowned for its emphasis on
                   meditation practice and the Mahamudra teachings.
                 </p>
@@ -110,13 +110,13 @@ const Index = () => {
 
               <div className="bg-card rounded-lg p-8 border border-border shadow-sm">
                 <h3 className="font-heading text-2xl font-semibold text-foreground mb-4">
-                  Credentials
+                  Background
                 </h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-gold mt-2.5 shrink-0" />
                     <span className="text-muted-foreground">
-                      <strong className="text-foreground">Dorlop Rinpoche</strong>{" "}
+                      <strong className="text-foreground">Dorlöp Rinpoché</strong>{" "}
                       — Recognized Tibetan Buddhist Teacher
                     </span>
                   </li>
@@ -163,8 +163,8 @@ const Index = () => {
             <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mx-auto mb-12">
               The Drikung Kagyu lineage traces its origins to the Buddha through
               an unbroken chain of realized masters. Founded in 1179 by Kyobpa
-              Jigten Sumgön, it is known for the profound practices of
-              Mahamudra, the Great Seal, and the Six Yogas of Naropa.
+              Jikten Sumgön, it is known for the profound practices of
+              Mahamudra (the Great Seal), and the Six Yogas of Naropa.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -276,7 +276,7 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center">
             <p className="font-heading text-xl text-cream mb-2">
-              Dorlop Rinpoche, Dr. Hun Lye
+              Dorlöp Rinpoché, Dr. Hun Lye
             </p>
             <p className="text-cream/50 text-sm">
               Sharing the Dharma in the Drikung Kagyu tradition
