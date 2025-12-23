@@ -258,7 +258,7 @@ const Index = () => {
                     Drikung Dharmakirti
                   </h3>
                   <p className="text-cream/70 text-sm mb-4">
-                    Dharma center and practice community
+                    Practice community
                   </p>
                   <span className="inline-flex items-center text-gold text-sm font-medium">
                     Visit Site
