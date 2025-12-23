@@ -210,7 +210,7 @@ const Index = () => {
                 "Happiness and suffering arises from choices made."
                 <br/>
                 <br/>
-                "To restrain oneself from harmful actions, to engage in virtue, and to do that for the sake of all is the conduct of bodhisattvas."
+                "To restrain oneself from harmful actions, to engage in virtue, and to do it for the sake of all is the conduct of bodhisattvas."
                 </p>
               </div>
             </div>
