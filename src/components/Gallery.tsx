@@ -18,12 +18,10 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
+  { src: img5, alt: "His Holiness the Drikung Kyabgon with Dr. Lye", aspectRatio: "square" },
+  { src: img4, alt: "Dorlöp Rinpoché at the site of the Drikung Forest Hermitage", aspectRatio: "landscape" },
   { src: img1, alt: "Dorlöp Rinpoché teaching Buddhist wisdom", aspectRatio: "portrait" },
-  { src: img2, alt: "Dr. Hun Lye in traditional Buddhist setting", aspectRatio: "portrait" },
   { src: img3, alt: "Tibetan Buddhist teaching session", aspectRatio: "portrait" },
-  { src: img4, alt: "Buddhist ceremony and practice", aspectRatio: "landscape" },
-  { src: img5, alt: "Meditation and dharma practice", aspectRatio: "square" },
-  { src: img6, alt: "Dorlöp Rinpoché with students", aspectRatio: "portrait" },
   { src: img7, alt: "Buddhist teachings and meditation", aspectRatio: "portrait" },
   { src: img8, alt: "Traditional Buddhist gathering", aspectRatio: "landscape" },
 ];
@@ -43,7 +41,7 @@ const Gallery = () => {
               Moments in Practice
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Images from teachings, ceremonies, and community gatherings
+              Glimpses of the teacher
             </p>
           </div>
 

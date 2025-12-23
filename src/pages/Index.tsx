@@ -26,6 +26,12 @@ const Index = () => {
               Lineage
             </a>
             <a
+              href="#gallery"
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+            >
+              Gallery
+            </a>
+            <a
               href="#connect"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
             >
@@ -217,6 +223,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Gallery Section */}
+      <Gallery />
 
       {/* Connect Section */}
       <section id="connect" className="py-24 bg-maroon">
