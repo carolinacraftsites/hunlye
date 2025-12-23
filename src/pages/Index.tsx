@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import heroImage from "@/assets/hero.jpeg";
+import Gallery from "@/components/Gallery";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <span className="font-heading text-xl font-semibold text-foreground">
             Hun Lye
@@ -94,10 +95,9 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  Dr. Hun Lye, known as Dorlöp Rinpoché, is an authorized
-                  teacher in the Drikung Kagyu lineage—a sub-sect of one of the four major
-                  schools of Tibetan Buddhism, renowned for its emphasis on
-                  meditation practice and the Mahamudra teachings.
+                  Dorlöp (Vajra Master) Rinpoché, Dr. Hun Lye, is an authorized
+                  teacher in the Drikung Kagyu Lineage of Tibetan Buddhism,
+                  renowned for its emphasis on meditation practice and the Mahamudra teachings.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   With a Ph.D. in Religious Studies from the University of
