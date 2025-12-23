@@ -171,7 +171,7 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-6 rounded-lg bg-background border border-border">
                 <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-gold text-xl">ༀ</span>
+                  <span className="text-gold text-xl">☸</span>
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
                   View
@@ -192,16 +192,16 @@ const Index = () => {
                 Meditation
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                "What we call 'meditation' is nothing but habituating our fundamental buddhamind."
+                "What we call <em>meditation</em> is nothing but habituating our fundamental buddhamind."
                 <br/>
                 <br/>
-                "All that arises from the three poisons is 'contrived', all that is free from the poisons is natural."
+                "All that arises from the three poisons is <em>contrived</em>, all that is free from the poisons is natural."
                 </p>
               </div>
 
               <div className="p-6 rounded-lg bg-background border border-border">
                 <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-gold text-xl">✦</span>
+                  <span className="text-gold text-xl">☸</span>
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
                 Conduct
