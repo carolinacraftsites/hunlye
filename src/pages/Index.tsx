@@ -223,7 +223,7 @@ const Index = () => {
             </h2>
             <p className="text-cream/80 text-lg leading-relaxed mb-12">
               Connect to teachings, events, and community through Urban Dharma NC
-              and Drikung Dharmakirti. All are welcome on the path.
+              and Drikung Dharmakirti International Sangha. All are welcome on the path.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
