@@ -43,7 +43,7 @@ const Index = () => {
             alt="Dorlöp Rinpoché, Dr. Hun Lye teaching in a traditional Buddhist setting with thangka and altar"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-maroon-dark/90 via-maroon/70 to-maroon-dark/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-maroon-dark/80 via-maroon/30 to-maroon-dark/80" />
         </div>
         <div className="relative z-10 container mx-auto px-6 pt-24 pb-16">
           <div className="max-w-2xl animate-fade-up">
