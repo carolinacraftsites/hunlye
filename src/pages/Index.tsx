@@ -97,7 +97,7 @@ const Index = () => {
                 <p className="text-muted-foreground leading-relaxed text-lg">
                   Dorlöp (Vajra Master) Rinpoché, Dr. Hun Lye, is an authorized
                   teacher in the Drikung Kagyu Lineage of Tibetan Buddhism,
-                  renowned for its emphasis on meditation practice and the Mahamudra teachings.
+                  renowned for its emphasis on meditation practice.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   With a Ph.D. in Religious Studies from the University of
