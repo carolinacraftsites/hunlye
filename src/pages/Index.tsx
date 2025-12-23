@@ -104,7 +104,7 @@ const Index = () => {
                   Virginia, Dr. Lye brings both deep scholarly understanding and
                   authentic practice experience to his teaching, making the
                   profound wisdom of the Tibetan Buddhist tradition accessible
-                  to modern practitioners.
+                  to contemporary practitioners.
                 </p>
               </div>
 
