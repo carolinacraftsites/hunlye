@@ -54,7 +54,7 @@ const Index = () => {
               <span className="block text-gold-light">Dr. Hun Lye</span>
             </h1>
             <p className="text-cream/90 text-lg md:text-xl leading-relaxed mb-8 max-w-xl delay-300 animate-fade-up">
-              Buddhist teacher in the Drikung Kagyu tradition, scholar, and
+              Buddhist teacher in the Drikung Kagyu Lineage, scholar, and
               founder of Urban Dharma NC. Sharing the wisdom of Tibetan Buddhism
               with clarity and compassion.
             </p>
