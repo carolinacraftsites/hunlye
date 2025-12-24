@@ -130,16 +130,6 @@ const Index = () => {
             </p>
             <div className="flex flex-wrap gap-4 delay-400 animate-fade-up">
               <Button variant="gold" size="lg" asChild>
-                <a
-                  href="https://udharmanc.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Urban Dharma NC
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline-gold" size="lg" asChild>
                 <a href="#about">Learn More</a>
               </Button>
             </div>
