@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Menu, X } from "lucide-react";
 import heroImage from "@/assets/hero.jpeg";
 import Gallery from "@/components/Gallery";
+import { useState } from "react";
 
 const Index = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
@@ -12,7 +15,9 @@ const Index = () => {
           <span className="font-heading text-xl font-semibold text-foreground">
             Hun Lye
           </span>
-          <div className="flex gap-4">
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex gap-4">
             <a
               href="#about"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
@@ -24,6 +29,12 @@ const Index = () => {
               className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
             >
               Lineage
+            </a>
+            <a
+              href="#teachings"
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+            >
+              Teachings
             </a>
             <a
               href="#gallery"
@@ -38,7 +49,59 @@ const Index = () => {
               Connect
             </a>
           </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden text-foreground p-2"
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-background border-t border-border">
+            <div className="container mx-auto px-6 py-4 flex flex-col gap-4">
+              <a
+                href="#about"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-foreground transition-colors text-base font-medium py-2"
+              >
+                About
+              </a>
+              <a
+                href="#lineage"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-foreground transition-colors text-base font-medium py-2"
+              >
+                Lineage
+              </a>
+              <a
+                href="#teachings"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-foreground transition-colors text-base font-medium py-2"
+              >
+                Teachings
+              </a>
+              <a
+                href="#gallery"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-foreground transition-colors text-base font-medium py-2"
+              >
+                Gallery
+              </a>
+              <a
+                href="#connect"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-foreground transition-colors text-base font-medium py-2"
+              >
+                Connect
+              </a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
@@ -47,12 +110,12 @@ const Index = () => {
           <img
             src={heroImage}
             alt="Dorlöp Rinpoché, Dr. Hun Lye teaching in a traditional Buddhist setting with thangka and altar"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover scale-120 md:scale-180 object-[44%_center] md:object-[80%_center]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-maroon-dark/80 via-maroon/30 to-maroon-dark/80" />
         </div>
         <div className="relative z-10 container mx-auto px-6 pt-24 pb-16">
-          <div className="max-w-2xl animate-fade-up">
+          <div className="max-w-2xl md:max-w-xl animate-fade-up">
             <p className="text-gold font-medium tracking-widest uppercase text-sm mb-4 delay-100 animate-fade-up">
               Drikung Kagyu Lineage
             </p>
@@ -219,6 +282,49 @@ const Index = () => {
                 "To restrain oneself from harmful actions, to engage in virtue, and to do it for the sake of all is the conduct of bodhisattvas."
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Teachings Section */}
+      <section id="teachings" className="py-24 bg-maroon">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">
+                Teachings
+              </p>
+              <h2 className="font-heading text-4xl md:text-5xl font-semibold text-cream mb-4">
+                Open, Accessible Teachings for All
+              </h2>
+              <p className="text-cream/80 text-lg max-w-2xl mx-auto">
+                Many of Rinpoché's teachings are recorded and available on the Drikung Dharmakirti Youtube Channel
+              </p>
+            </div>
+
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg border border-cream/20">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/1i9trqiw_ZY?si=yqO8cnQZIxzQOjyE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+
+            <div className="mt-8 text-center">
+              <a
+                href="https://www.youtube.com/@HunLye"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-gold hover:text-gold-light transition-colors text-lg font-medium"
+              >
+                Visit YouTube Channel
+                <ExternalLink className="ml-2 h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>
